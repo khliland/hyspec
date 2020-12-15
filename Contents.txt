@@ -1,0 +1,36 @@
+==========
+= hyspec =
+==========
+
+This is a collection of MATLAB routines for hyperspectral image analysis. As of May 2018, this is in a development state with no guarantee of backward compatibility in future updates.
+
+
+## Files
+
+# Object for storing {x,y,ch} images of various sizes:
+- hyspec_object
+
+# Graphical user interface for image analysis
+- hyspec
+
+# Background correction:
+- hyspec_center		| centering of spectra
+- hyspec_derivative	| Savitsky-Golay derivatives
+- hyspec_dwt            | discrete wavelet transform denoising of spectra
+- hyspec_emsc		| (extended) multiplicative signal correction
+- hyspec_ref2abs	| reference -> absorption
+- hyspec_snv		| standard normal variate
+
+# Analysis
+- hyspec_efa		| evolving factor analysis
+- hyspec_mcr		| multivariate curve resolution
+- hyspec_pca		| principal component analysis
+
+# Utilities
+- hyspec_filter_spectra	| 1D spectrum filters
+- hyspec_mean		| mean spectrum
+- hyspec_merge		| merge hyspec objects
+- hyspec_quantile	| quantile spectra
+- hyspec_segment	| image segmentation
+- hyspec_smoothness     | calculate smoothness by neighbour correlation
+- hyspec_threshold	| thresholding of spectra
